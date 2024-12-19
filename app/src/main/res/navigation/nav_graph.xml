@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nutrientList">
+
+    <fragment
+        android:id="@+id/nutrientList"
+        android:name="com.betulesen.nutrientbook.view.nutrientList"
+        android:label="fragment_nutrient_list"
+        tools:layout="@layout/fragment_nutrient_list" >
+        <action
+            android:id="@+id/action_nutrientList_to_nutrientDetail"
+            app:destination="@id/nutrientDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nutrientDetail"
+        android:name="com.betulesen.nutrientbook.view.nutrientDetail"
+        android:label="fragment_nutrient_detail"
+        tools:layout="@layout/fragment_nutrient_detail" >
+        <argument
+            android:name="nutrientID"
+            app:argType="integer" />
+    </fragment>
+</navigation>

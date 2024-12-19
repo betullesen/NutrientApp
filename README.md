@@ -15,6 +15,7 @@ NutrientBook is an Android application that displays food data retrieved from an
 - **Gson:** Gson was used to convert JSON data into Kotlin data classes.
 
 ## Preview
+![simsizvideoClipchampileyapld-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0f65836c-d33d-4ee3-9413-c00994bcfdbc)
 
 
 ## App Features
